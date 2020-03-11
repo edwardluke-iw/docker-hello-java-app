@@ -12,7 +12,8 @@ Additionally, the base JVM images that are used to generate the `runtime` contai
 https://github.com/edwardluke-iw/docker-jvm-base.
 
 
-## Stages and Java Versions
+## Stages and Java Versions
+
 The project can use three different `builder` images to execute the maven build:
 * `edwardlukeiw/mvn:openjdk8`
 * `edwardlukeiw/mvn:openjdk11`
